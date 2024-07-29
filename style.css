@@ -1,0 +1,156 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #2b2b2b;
+    color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+    text-shadow: 2px 2px 5px #aaa;
+}
+
+h1.dark-mode {
+    color: #f4f4f4;
+}
+
+.controls {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+button, select, input[type="range"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, select:hover, input[type="range"]:hover {
+    background-color: #ddd;
+}
+
+button:focus, select:focus, input[type="range"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #aaa;
+}
+
+button {
+    background-color: #2196F3;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: #555;
+    color: white;
+}
+
+select {
+    background-color: #fff;
+    color: #333;
+}
+
+select.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+input[type="range"] {
+    width: 100px;
+}
+
+input[type="range"].dark-mode {
+    background-color: #333;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(40, 20px);
+    grid-template-rows: repeat(20, 20px);
+    gap: 1px;
+    margin-top: 20px;
+}
+
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.grid-cell.wall {
+    background-color: #333;
+}
+
+.grid-cell.visited {
+    background-color: #ffcc00;
+}
+
+.grid-cell.path {
+    background-color: #4caf50;
+}
+
+.grid-cell.start {
+    background-color: #00bcd4;
+}
+
+.grid-cell.end {
+    background-color: #f44336;
+}
+
+.grid-cell:focus {
+    outline: none;
+    border-color: #2196F3;
+}
+
+.grid-cell.dark-mode {
+    border-color: #555;
+}
+
+.grid-cell.wall.dark-mode {
+    background-color: #555;
+}
+
+.grid-cell.visited.dark-mode {
+    background-color: #ffeb3b;
+}
+
+.grid-cell.path.dark-mode {
+    background-color: #4caf50;
+}
+
+.grid-cell.start.dark-mode {
+    background-color: #00acc1;
+}
+
+.grid-cell.end.dark-mode {
+    background-color: #e57373;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pathfinding Algorithm Visualizer</h1>
+            <div class="controls">
+                <button id="startButton">Start</button>
+                <button id="stepButton">Step</button>
+                <button id="resetButton">Reset</button>
+                <select id="algorithmSelect">
+                    <option value="Dijkstra">Dijkstra's Algorithm</option>
+                    <option value="DFS">Depth-First Search</option>
+                    <option value="BFS">Breadth-First Search</option>
+                </select>
+                <label for="speedControl">Speed:</label>
+                <input type="range" id="speedControl" min="1" max="10" value="5">
+                <button id="saveButton">Save Grid</button>
+                <button id="loadButton">Load Grid</button>
+                <button id="themeToggle">Toggle Theme</button>
+            </div>
+        </header>
+        <main>
+            <div id="grid"></div>
+        </main>
+        <footer>
+            <p>Connect with me: 
+                <a href="https://github.com/VirendraT11" target="_blank">GitHub</a> | 
+                <a href="https://www.linkedin.com/in/virendra-tambavekar-74a384257/" target="_blank">LinkedIn</a>
+            </p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
