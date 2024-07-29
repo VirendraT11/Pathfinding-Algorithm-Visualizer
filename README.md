@@ -51,12 +51,10 @@ This project is an excellent tool for:
 ## 🔗 Connect with Me
 
 - **GitHub**: [VirendraT11](https://github.com/VirendraT11)
-- **LinkedIn**: [yourusername](https://www.linkedin.com/in/virendra-tambavekar-74a384257/)
+- **LinkedIn**: [Virendra Tambavekar](https://www.linkedin.com/in/virendra-tambavekar-74a384257/)
 
 ## 🙏 Acknowledgements
 
 Special thanks to [neerukapoor](https://github.com/neerukapoor) for the inspiration and foundational code.
 
 ---
-
-Feel free to modify this README to better fit your style and the specifics of your project. Be sure to replace placeholder text like `yourusername` with your actual GitHub and LinkedIn profile links. Add relevant images where indicated to make the README more engaging and informative.
